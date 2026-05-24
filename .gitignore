@@ -1,0 +1,10 @@
+data/
+ 
+model/
+ 
+__pycache__/
+*.pyc
+*.pyo
+ 
+.vscode/
+ 
