@@ -8,7 +8,17 @@ Draw an animal on the canvas and the model will guess what it is — live, in yo
 
 ## Demo
 
-![Animal Doodle Guesser Demo](plots/sample_predictions.png)
+![Sample Predictions](plots/sample_predictions.png)
+
+---
+
+## Evaluation
+
+### Confusion Matrix
+![Confusion Matrix](plots/confusion_matrix.png)
+
+### Per-Class Accuracy
+![Per-Class Accuracy](plots/per_class_accuracy.png)
 
 ---
 
@@ -128,10 +138,10 @@ Input (28×28×1)
 
 | Metric | Value |
 |---|---|
-| Test Accuracy | ~73% |
+| Test Accuracy | 76.77% |
 | Categories | 28 |
 | Training samples | 280,000 (10k per category) |
-| Epochs trained | ~16 (early stopping) |
+| Epochs trained | 20 |
 
 ---
 
